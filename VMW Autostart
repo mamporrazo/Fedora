@@ -1,0 +1,8 @@
+### Autostart Vmware Workstation
+# https://linuxhint.com/autostart-vmware-workstation-pro-16-linux/
+# https://github.com/shovon8/vmware-autostart
+
+sudo dnf install jq -y
+sudo mkdir -pv /opt/vmware-autostart/bin
+
+sudo nano /opt/vmware-autostart/config.json
